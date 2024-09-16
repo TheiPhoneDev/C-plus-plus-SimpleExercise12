@@ -179,7 +179,7 @@ void ricercaParziale(int n, int v[]) {
     
     cout<<endl;
     
-    cout<<"Inserisci il nome del concorrente: ";
+    cout<<"Inserisci il numero da cercare: ";
     cin>>numero;
     while(i<n&&v[i]!=numero) {
         i=i+1;
@@ -200,7 +200,7 @@ void ricercaParziale(int n, int v[]) {
 void ricercaTotale(int n, int v[]) {
     
     int numero;
-    int numeroTrovato;
+
     
     cout<<endl;
     
